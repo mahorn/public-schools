@@ -18,6 +18,12 @@ United States Counties
 * Obtained from [US Census Cartographic Boundery Files](https://www.census.gov/geo/maps-data/data/cbf/cbf_ua.html)
 * Shapefile data converted into WGS84, simplyfied and encoded within a GeoJSON file using Mapshaper.
 
+# Data Process
+
+* Cartocolors.json file read and upload using require().
+* Cartocolors.json file read and write using fs.readFile to extract "Geyser palette".
+* Public schools shapefile converted to GeoJSON and features extracted using ogr2ogr.
+
 # Project npm Packages
 * chalk
 * less
