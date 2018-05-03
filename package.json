@@ -9,6 +9,7 @@
   "author": "Maria Renee Horn & Joe Blankenship",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "less": "^3.0.2"
   }
 }
