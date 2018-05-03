@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</gmd:MD_CharacterSetCode>
+</gmd:characterSet>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:hierarchyLevelName>
+<gco:CharacterString>dataset</gco:CharacterString>
+</gmd:hierarchyLevelName>
+<gmd:contact gco:nilReason="missing"/>
+<gmd:dateStamp gco:nilReason="missing"/>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2007</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation gco:nilReason="missing"/>
+<gmd:abstract>
+<gco:CharacterString>Wake County School Board Districts</gco:CharacterString>
+</gmd:abstract>
+<gmd:purpose>
+<gco:CharacterString>Wake County School Board Districts</gco:CharacterString>
+</gmd:purpose>
+<gmd:credit>
+<gco:CharacterString>Wake County GIS</gco:CharacterString>
+</gmd:credit>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>School Board Districts</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>elections</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>voting</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Wake County Public Schools</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>WCPSS</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>North Carolina</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>School Board Districts</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>elections</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>voting</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Wake County Public Schools</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>WCPSS</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>North Carolina</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>School Board Districts</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>elections</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>voting</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Wake County Public Schools</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>WCPSS</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>North Carolina</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>School Board Districts</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>elections</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>voting</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Wake County Public Schools</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>WCPSS</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>North Carolina</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>School Board Districts</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>elections</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>voting</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Wake County Public Schools</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>WCPSS</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>North Carolina</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>School Board Districts</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>elections</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>voting</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Wake County Public Schools</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>WCPSS</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>North Carolina</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>School Board Districts</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>elections</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>voting</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Wake County Public Schools</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>WCPSS</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>North Carolina</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>School Board Districts</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>elections</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>voting</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Wake County Public Schools</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>WCPSS</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>North Carolina</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>electoral</gco:CharacterString>
+</gmd:keyword>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:resourceConstraints>
+<gmd:MD_Constraints>
+<gmd:useLimitation>
+<gco:CharacterString>Wake County Geographic Information Services shall not be held liable for any errors in these data. This includes errors of omission, commission, errors concerning the content of the data, and relative and positional accuracy of the data. These data cannot be construed to be a legal document. Primary sources from which these data were compiled must be consulted for verification of information contained in these data.</gco:CharacterString>
+</gmd:useLimitation>
+</gmd:MD_Constraints>
+</gmd:resourceConstraints>
+<gmd:language gco:nilReason="missing"/>
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</gmd:MD_CharacterSetCode>
+</gmd:characterSet>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmd:MD_Metadata>
