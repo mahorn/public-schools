@@ -1,0 +1,191 @@
+NAMELONG,GLEVEL,IS_MAGNET,CITY,EXISTING,IS_TITLE1,OBJECTID_1,DISTRICT,NAME,COUNT
+Swift Creek Elementary,E,N,WAKE COUNTY,YES,N,2,5,Jim Martin,17
+Briarcliff Elementary,E,N,CARY,YES,N,8,9,Bill Fletcher,22
+Farmington Woods Elementary,E,Y,CARY,YES,N,8,9,Bill Fletcher,22
+Cary High,H,N,CARY,YES,N,8,9,Bill Fletcher,22
+Adams Elementary,E,N,CARY,YES,N,8,9,Bill Fletcher,22
+Apex Elementary,E,N,APEX,YES,N,7,8,Lindsay Mahaffey,26
+Apex High,H,N,APEX,YES,N,7,8,Lindsay Mahaffey,26
+Kingswood Elementary,E,Y,CARY,YES,Y,8,9,Bill Fletcher,22
+Northwoods Elementary,E,N,CARY,YES,N,8,9,Bill Fletcher,22
+Combs Elementary,E,Y,RALEIGH,YES,N,2,5,Jim Martin,17
+Athens Drive High,H,Y,RALEIGH,YES,N,2,5,Jim Martin,17
+Broughton High,H,Y,RALEIGH,YES,N,4,6,Christine Kushner,23
+Powell Elementary,E,Y,RALEIGH,YES,Y,1,4,Keith Sutton,19
+Mary E. Phillips High School,S,N,RALEIGH,YES,Y,1,4,Keith Sutton,19
+Ligon Middle,M,Y,RALEIGH,YES,N,1,4,Keith Sutton,19
+Washington Elementary,E,Y,RALEIGH,YES,N,2,5,Jim Martin,17
+Carnage Middle,M,Y,RALEIGH,YES,N,1,4,Keith Sutton,19
+Daniels Middle,M,Y,RALEIGH,YES,N,4,6,Christine Kushner,23
+Root Elementary,E,N,RALEIGH,YES,N,4,6,Christine Kushner,23
+Lynn Road Elementary,E,N,RALEIGH,YES,Y,4,6,Christine Kushner,23
+Brooks Elementary,E,Y,RALEIGH,YES,N,4,6,Christine Kushner,23
+Carroll Middle,M,Y,RALEIGH,YES,N,4,6,Christine Kushner,23
+Douglas Elementary,E,Y,RALEIGH,YES,N,4,6,Christine Kushner,23
+Millbrook Elementary,E,Y,RALEIGH,YES,Y,4,6,Christine Kushner,23
+Wilburn Elementary,E,N,RALEIGH,YES,Y,1,4,Keith Sutton,19
+East Millbrook Middle,M,Y,RALEIGH,YES,N,6,3,Roxie Cash,18
+Fox Road Elementary,E,Y,RALEIGH,YES,Y,6,3,Roxie Cash,18
+Lead Mine Elementary,E,N,RALEIGH,YES,N,5,7,Kathy Hartenstine,15
+Brassfield Elementary,E,N,WAKE COUNTY,YES,N,6,3,Roxie Cash,18
+Pleasant Union Elementary,E,N,WAKE COUNTY,YES,N,6,3,Roxie Cash,18
+Fuquay-Varina Middle,M,N,FUQUAY-VARINA,YES,N,9,2,Monika Johnson-Hostler,20
+Rand Road Elementary,E,N,GARNER,YES,N,9,2,Monika Johnson-Hostler,20
+Bugg Elementary,E,Y,RALEIGH,YES,Y,1,4,Keith Sutton,19
+Lockhart Elementary,E,N,KNIGHTDALE,YES,Y,3,1,Donald Agee,30
+East Wake High,H,N,WAKE COUNTY,YES,N,3,1,Donald Agee,30
+Wendell Elementary,E,Y,WENDELL,YES,Y,3,1,Donald Agee,30
+Zebulon Middle,M,Y,ZEBULON,YES,N,3,1,Donald Agee,30
+East Wake Middle,M,N,KNIGHTDALE,YES,N,3,1,Donald Agee,30
+Rolesville Elementary,E,N,ROLESVILLE,YES,N,3,1,Donald Agee,30
+Wake Forest Elementary,E,N,WAKE FOREST,YES,Y,3,1,Donald Agee,30
+Wake Forest Middle,M,N,WAKE FOREST,YES,N,3,1,Donald Agee,30
+Durant Road Elementary,E,N,RALEIGH,YES,N,6,3,Roxie Cash,18
+Stough Elementary,E,Y,RALEIGH,YES,Y,4,6,Christine Kushner,23
+York Elementary,E,N,RALEIGH,YES,Y,5,7,Kathy Hartenstine,15
+Jeffreys Grove Elementary,E,Y,RALEIGH,YES,N,5,7,Kathy Hartenstine,15
+West Lake Elementary,E,N,CARY,YES,N,2,5,Jim Martin,17
+Green Hope High,H,N,CARY,YES,N,8,9,Bill Fletcher,22
+Southeast Raleigh High,H,Y,RALEIGH,YES,N,1,4,Keith Sutton,19
+ROCK QUARRY SERVICE CENTER,A,,RALEIGH,NO,,1,4,Keith Sutton,19
+Olive Chapel Elementary,E,N,APEX,YES,N,7,8,Lindsay Mahaffey,26
+Carver Elementary,E,N,WENDELL,YES,Y,3,1,Donald Agee,30
+Oak Grove Elementary,E,N,CARY,YES,N,7,8,Lindsay Mahaffey,26
+Apex Middle,M,N,APEX,YES,N,7,8,Lindsay Mahaffey,26
+Baucom Elementary,E,N,APEX,YES,N,7,8,Lindsay Mahaffey,26
+Brentwood Elementary,E,Y,RALEIGH,YES,Y,4,6,Christine Kushner,23
+East Cary Middle,M,N,CARY,YES,N,8,9,Bill Fletcher,22
+Enloe High,H,Y,RALEIGH,YES,N,1,4,Keith Sutton,19
+Knightdale Elementary,E,N,KNIGHTDALE,YES,Y,3,1,Donald Agee,30
+Millbrook High,H,Y,RALEIGH,YES,N,6,3,Roxie Cash,18
+North Ridge Elementary,E,N,RALEIGH,YES,N,6,3,Roxie Cash,18
+Sanderson High,H,N,RALEIGH,YES,N,4,6,Christine Kushner,23
+Morrisville Elementary,E,N,MORRISVILLE,YES,N,5,7,Kathy Hartenstine,15
+West Cary Middle,M,N,CARY,YES,N,8,9,Bill Fletcher,22
+West Millbrook Middle,M,N,RALEIGH,YES,N,6,3,Roxie Cash,18
+Martin Middle,M,Y,RALEIGH,YES,N,4,6,Christine Kushner,23
+Olds Elementary,E,N,RALEIGH,YES,N,4,6,Christine Kushner,23
+Wake Forest High,H,N,WAKE FOREST,YES,N,3,1,Donald Agee,30
+Wiley Elementary,E,Y,RALEIGH,YES,N,4,6,Christine Kushner,23
+Wildwood Forest Elementary,E,N,RALEIGH,YES,Y,6,3,Roxie Cash,18
+Yates Mill Elementary,E,N,WAKE COUNTY,YES,Y,2,5,Jim Martin,17
+Partnership Elementary,E,A,RALEIGH,YES,N,4,6,Christine Kushner,23
+Centennial Campus Middle,M,Y,RALEIGH,YES,N,2,5,Jim Martin,17
+Green Hope Elementary,E,N,CARY,YES,N,8,9,Bill Fletcher,22
+Heritage Middle,M,N,WAKE FOREST,YES,N,3,1,Donald Agee,30
+Moore Square Middle,M,Y,RALEIGH,YES,N,2,5,Jim Martin,17
+Baileywick Road Elementary,E,N,RALEIGH,YES,Y,6,3,Roxie Cash,18
+Middle Creek High,H,N,CARY,YES,N,2,5,Jim Martin,17
+Lufkin Road Middle,M,N,APEX,YES,N,7,8,Lindsay Mahaffey,26
+Turner Creek Elementary,E,N,CARY,YES,N,7,8,Lindsay Mahaffey,26
+Salem Elementary,E,N,APEX,YES,N,8,9,Bill Fletcher,22
+Salem Middle,M,N,APEX,YES,N,8,9,Bill Fletcher,22
+Highcroft Drive Elementary,E,N,CARY,YES,N,7,8,Lindsay Mahaffey,26
+Davis Drive Middle,M,N,CARY,YES,N,8,9,Bill Fletcher,22
+Davis Drive Elementary,E,N,CARY,YES,N,8,9,Bill Fletcher,22
+Heritage Elementary,E,N,WAKE FOREST,YES,N,3,1,Donald Agee,30
+Cedar Fork Elementary,E,N,MORRISVILLE,YES,N,5,7,Kathy Hartenstine,15
+Panther Creek High,H,N,CARY,YES,N,5,7,Kathy Hartenstine,15
+Cary Elementary,E,N,CARY,YES,Y,8,9,Bill Fletcher,22
+Holly Springs High,H,N,HOLLY SPRINGS,YES,N,7,8,Lindsay Mahaffey,26
+Brier Creek Elementary,E,N,RALEIGH,YES,N,5,7,Kathy Hartenstine,15
+Durant Road Middle,M,N,RALEIGH,YES,N,6,3,Roxie Cash,18
+Weatherstone Elementary,E,N,CARY,YES,N,8,9,Bill Fletcher,22
+North Garner Middle,M,N,GARNER,YES,N,9,2,Monika Johnson-Hostler,20
+Hilburn Drive Academy,EM,N,RALEIGH,YES,N,5,7,Kathy Hartenstine,15
+Conn Elementary,E,Y,RALEIGH,YES,Y,1,4,Keith Sutton,19
+Underwood Elementary,E,Y,RALEIGH,YES,N,4,6,Christine Kushner,23
+Mount Vernon Middle-Bridges Program,S,N,RALEIGH,YES,Y,4,6,Christine Kushner,23
+Jones Dairy Elementary,E,N,WAKE COUNTY,YES,N,3,1,Donald Agee,30
+Wakefield Elementary,E,N,RALEIGH,YES,Y,6,3,Roxie Cash,18
+Wakefield Middle,M,N,RALEIGH,YES,N,6,3,Roxie Cash,18
+Wakefield High,H,N,RALEIGH,YES,N,6,3,Roxie Cash,18
+Green Elementary,E,Y,RALEIGH,YES,Y,4,6,Christine Kushner,23
+Knightdale High,H,N,KNIGHTDALE,YES,N,3,1,Donald Agee,30
+Forestville Road Elementary,E,N,KNIGHTDALE,YES,Y,3,1,Donald Agee,30
+Carpenter Elementary,E,N,CARY,YES,N,5,7,Kathy Hartenstine,15
+Reedy Creek Elementary,E,N,CARY,YES,Y,8,9,Bill Fletcher,22
+Reedy Creek Middle,M,Y,CARY,YES,N,8,9,Bill Fletcher,22
+Harris Creek Elementary,E,N,RALEIGH,YES,N,3,1,Donald Agee,30
+Dillard Drive Middle,M,N,RALEIGH,YES,N,2,5,Jim Martin,17
+Dillard Drive Elementary,E,N,RALEIGH,YES,Y,2,5,Jim Martin,17
+HARRIET B WEBSTER AT CROSSROADS II ADM,A,,CARY,NO,,8,9,Bill Fletcher,22
+SPRING FOREST ROAD MODULAR SITE,U,,RALEIGH,NO,,6,3,Roxie Cash,18
+East Garner Middle,M,Y,GARNER,YES,N,9,2,Monika Johnson-Hostler,20
+East Garner Elementary,E,N,GARNER,YES,Y,9,2,Monika Johnson-Hostler,20
+North Forest Pines Elementary,E,N,RALEIGH,YES,N,6,3,Roxie Cash,18
+River Oaks Middle,S,N,RALEIGH,YES,Y,1,4,Keith Sutton,19
+Hodge Road Elementary,E,Y,KNIGHTDALE,YES,Y,1,4,Keith Sutton,19
+Lincoln Heights Elementary,E,Y,FUQUAY-VARINA,YES,Y,9,2,Monika Johnson-Hostler,20
+Middle Creek Elementary,E,N,CARY,YES,N,2,5,Jim Martin,17
+Barwell Road Elementary,E,N,RALEIGH,YES,Y,9,2,Monika Johnson-Hostler,20
+Ballentine Elementary,E,N,FUQUAY-VARINA,YES,N,9,2,Monika Johnson-Hostler,20
+Fuquay-Varina Elementary,E,N,FUQUAY-VARINA,YES,N,9,2,Monika Johnson-Hostler,20
+Creech Road Elementary,E,N,GARNER,YES,Y,9,2,Monika Johnson-Hostler,20
+Smith Elementary,E,Y,GARNER,YES,Y,9,2,Monika Johnson-Hostler,20
+Penny Road Elementary,E,N,CARY,YES,N,7,8,Lindsay Mahaffey,26
+Forest Pines Drive Elementary,E,N,RALEIGH,YES,N,6,3,Roxie Cash,18
+Fuller Elementary,E,Y,RALEIGH,YES,Y,1,4,Keith Sutton,19
+Hunter Elementary,E,Y,RALEIGH,YES,Y,1,4,Keith Sutton,19
+Timber Drive Elementary,E,N,GARNER,YES,Y,9,2,Monika Johnson-Hostler,20
+Holly Springs Elementary,E,N,HOLLY SPRINGS,YES,N,7,8,Lindsay Mahaffey,26
+Garner High,H,Y,GARNER,YES,N,9,2,Monika Johnson-Hostler,20
+Holly Ridge Elementary,E,N,HOLLY SPRINGS,YES,N,7,8,Lindsay Mahaffey,26
+Holly Ridge Middle,M,N,HOLLY SPRINGS,YES,N,7,8,Lindsay Mahaffey,26
+Holly Grove Elementary,E,N,HOLLY SPRINGS,YES,N,7,8,Lindsay Mahaffey,26
+Fuquay-Varina High,H,N,FUQUAY-VARINA,YES,N,7,8,Lindsay Mahaffey,26
+Zebulon Elementary,E,Y,ZEBULON,YES,Y,3,1,Donald Agee,30
+Poe Elementary,E,Y,RALEIGH,YES,Y,1,4,Keith Sutton,19
+Longview School,S,N,RALEIGH,YES,N,1,4,Keith Sutton,19
+Vandora Springs Elementary,E,N,GARNER,YES,Y,9,2,Monika Johnson-Hostler,20
+Wake Early College of Health and Sciences,H,A,RALEIGH,YES,N,1,4,Keith Sutton,19
+Aversboro Elementary,E,N,GARNER,YES,Y,9,2,Monika Johnson-Hostler,20
+Sanford Creek Elementary,E,N,ROLESVILLE,YES,N,3,1,Donald Agee,30
+Wakelon Elementary,E,N,ZEBULON,YES,Y,3,1,Donald Agee,30
+Mills Park Elementary,E,N,CARY,YES,N,7,8,Lindsay Mahaffey,26
+Sycamore Creek Elementary,E,N,RALEIGH,YES,N,5,7,Kathy Hartenstine,15
+Laurel Park Elementary,E,N,CARY,YES,N,8,9,Bill Fletcher,22
+BRYAN ROAD ES SITE,E,,GARNER,NO,,9,2,Monika Johnson-Hostler,20
+BRYAN ROAD MS SITE,M,,GARNER,NO,,9,2,Monika Johnson-Hostler,20
+Lake Myra Elementary,E,N,WENDELL,YES,Y,3,1,Donald Agee,30
+Scotts Ridge Elementary,E,N,APEX,YES,N,7,8,Lindsay Mahaffey,26
+Herbert Akins Road Elementary,E,N,FUQUAY-VARINA,YES,N,7,8,Lindsay Mahaffey,26
+DUBOIS CENTER,U,,WAKE FOREST,NO,,3,1,Donald Agee,30
+River Bend Elementary,E,N,RALEIGH,YES,Y,4,6,Christine Kushner,23
+WENDELL AREA ES_PRE K SITE,E,,WENDELL,NO,,3,1,Donald Agee,30
+Banks Road Elementary,E,N,FUQUAY-VARINA,YES,N,9,2,Monika Johnson-Hostler,20
+Vance Elementary,E,N,WAKE COUNTY,YES,N,9,2,Monika Johnson-Hostler,20
+Joyner Elementary,E,Y,RALEIGH,YES,N,4,6,Christine Kushner,23
+Walnut Creek Elementary,E,N,RALEIGH,YES,Y,1,4,Keith Sutton,19
+WAKE EARLY COLLEGE NORTH CAMPUS HS,U,N,RALEIGH,NO,N,4,6,Christine Kushner,23
+Wendell Middle,M,N,WAKE COUNTY,YES,N,3,1,Donald Agee,30
+Willow Springs Elementary,E,N,WAKE COUNTY,YES,N,9,2,Monika Johnson-Hostler,20
+Alston Ridge Elementary,E,N,CARY,YES,N,7,8,Lindsay Mahaffey,26
+Holly Grove Middle,M,N,HOLLY SPRINGS,YES,N,7,8,Lindsay Mahaffey,26
+Mills Park Middle,M,N,CARY,YES,N,7,8,Lindsay Mahaffey,26
+West Lake Middle,M,N,CARY,YES,N,2,5,Jim Martin,17
+Heritage High,H,N,WAKE FOREST,YES,N,3,1,Donald Agee,30
+Wake STEM  Early College High School,H,A,RALEIGH,YES,N,2,5,Jim Martin,17
+Wake Young Men's Leadership Academy,MH,A,RALEIGH,YES,N,2,5,Jim Martin,17
+Wake Young Women's Leadership Academy,MH,A,RALEIGH,YES,N,2,5,Jim Martin,17
+Richland Creek Elementary,E,N,WAKE FOREST,YES,N,3,1,Donald Agee,30
+Lacy Elementary,E,N,RALEIGH,YES,N,4,6,Christine Kushner,23
+Rolesville Middle,M,N,ROLESVILLE,YES,N,3,1,Donald Agee,30
+Abbotts Creek Elementary,E,N,RALEIGH,YES,N,6,3,Roxie Cash,18
+WCPSS  AT CROSSROADS I ADM,A,,CARY,NO,,8,9,Bill Fletcher,22
+Leesville Road High,H,N,RALEIGH,YES,N,5,7,Kathy Hartenstine,15
+Leesville Road Middle,M,N,RALEIGH,YES,N,5,7,Kathy Hartenstine,15
+Leesville Road Elementary,E,N,RALEIGH,YES,N,5,7,Kathy Hartenstine,15
+Vernon Malone College & Career Academy,H,A,RALEIGH,YES,N,2,5,Jim Martin,17
+Rolesville High,H,N,ROLESVILLE,YES,N,3,1,Donald Agee,30
+Pleasant Grove Elementary,E,N,CARY,YES,N,5,7,Kathy Hartenstine,15
+Beaverdam Elementary,E,N,RALEIGH,YES,Y,3,1,Donald Agee,30
+Oakview Elementary,E,N,HOLLY SPRINGS,YES,N,7,8,Lindsay Mahaffey,26
+Pine Hollow Middle,M,N,RALEIGH,YES,N,5,7,Kathy Hartenstine,15
+White Oak Elementary,E,N,CARY,YES,N,7,8,Lindsay Mahaffey,26
+Apex Friendship High,H,N,APEX,YES,N,7,8,Lindsay Mahaffey,26
+Crossroads FLEX HS,H,A,CARY,YES,N,8,9,Bill Fletcher,22
+Hortons Creek Elementary,E,N,CARY,YES,N,7,8,Lindsay Mahaffey,26
+Rogers Lane Elementary,E,N,RALEIGH,YES,N,1,4,Keith Sutton,19
+River Bend Middle,M,N,RALEIGH,YES,N,4,6,Christine Kushner,23
+North Wake College & Career Academy,H,A,WAKE FOREST,YES,N,3,1,Donald Agee,30
