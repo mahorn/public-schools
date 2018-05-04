@@ -23,6 +23,7 @@ United States Counties
 * Cartocolors.json file read and upload using require().
 * Cartocolors.json file read and write using fs.readFile to extract "Geyser palette".
 * ogr2ogr used to convert public schools shapefile to GeoJSON and features extracted using mapshaper -filter-fields.
+* ogr2ogr used to convert school disctrics shapefile to GeoJSON and features extracted using mapshaper -filter-fields.
 
 # Project npm Packages
 * chalk
