@@ -51,20 +51,34 @@
     var map = L.map('map', options);
 
     // add CARTO voyager tiles with no labels
-     L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager_nolabels/{z}/{x}/{y}.png', {
-       maxZoom: 18,
-       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy;<a href="https://carto.com/attribution">CARTO</a>'
-     }).addTo(map);
+      L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager_nolabels/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy;<a href="https://carto.com/attribution">CARTO</a>'
+      }).addTo(map);
     
     // load json files using jquery
     $.when(
         $.getJSON('data/school-districts-filtered.json'),
+        $.getJSON('data/geysercolors.json'),
         $.getJSON('data/schools-filtered.json')
-    ).done(function(districtsData, schoolsData) {
-        L.geoJson(districtsData).addTo(map);
-        L.geoJson(schoolsData).addTo(map);
+    ).done(function(districtsData, colorsData, schoolsData) {
+      
+        var districts = districtsData[0],
+            colors = colorsData[0],
+            schools = schoolsData[0];
+
+        var districtsLayerGroup = L.geoJson(districts, {
+          style: function(feature) {
+            return {
+              color: colors.Geyser[7][feature.properties.OBJECTID -1],
+              fillOpacity: .6
+            }
+          }
+        }).addTo(map);
     });
    
+    
+    
   </script>
 </body>
 
