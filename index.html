@@ -7,8 +7,7 @@
 
     <title>Wake County Public Schools </title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/MarkerCluster.Default.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/MarkerCluster.Default.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/MarkerCluster.css" />
     <link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet'>
     <style>
@@ -104,8 +103,7 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.3.0/leaflet.markercluster.js"></script>
 
     <script>
@@ -116,8 +114,8 @@
             minZoom: 10,
             maxZoom: 16,
             maxBounds: [
-                [35.9032, -79.0661],
-                [35.7032, -78.5661]
+                [36.174663, -79.577851],
+                [35.374441, -77.744472]
             ]
         };
         // instantiate Leaflet map
@@ -144,7 +142,7 @@
             $.getJSON('data/school-districts-counts.json'),
             $.getJSON('data/antiquecolors.json'),
             $.getJSON('data/schools-filtered.json')
-        ).done(function (districtsData, colorsData, schoolsData) {
+        ).done(function(districtsData, colorsData, schoolsData) {
 
             var districts = districtsData[0],
                 colors = colorsData[0],
@@ -159,7 +157,7 @@
             }
             // create a layerGroup with the geojson data
             var districtsLayerGroup = L.geoJson(districts, {
-                style: function (feature) {
+                style: function(feature) {
                     // colors object to style each polygon
                     return {
                         color: colors.Antique[11][feature.properties.DISTRICT - 1],
@@ -171,22 +169,23 @@
                     // select each legend list item span and append the total count of schools
                     $('#district-' + feature.properties.DISTRICT + ' span').append(feature.properties.COUNT);
                     // when mousing over a polygon layer
-                    layer.on('mouseover', function () {
-                        // shorthand variable 
+                    layer.on('mouseover', function() {
+                        // provide visual affordance
+                        this.setStyle({
+                            fillOpacity: .8
+                        });
+                        // shorthand variable
                         var tooltip = feature.properties.NAME;
                         // bind tooltip to layer
                         layer.bindTooltip(tooltip, {
                             sticky: true,
                             className: 'tooltip'
                         }).addTo(map).bringToFront();
-                        // provide visual affordance
-                        this.setStyle({
-                            fillOpacity: .8
-                        })
                         // select the corresponding list item and add the highlight class
                         $('#district-' + feature.properties.DISTRICT).addClass('highlight');
-                    })
-                    layer.on('mouseout', function () {
+                    });
+
+                    layer.on('mouseout', function() {
                         // reset mouse event
                         this.setStyle({
                             color: colors.Antique['11'][feature.properties.DISTRICT - 1],
@@ -194,25 +193,28 @@
                         })
                         // remove class
                         $('#district-' + feature.properties.DISTRICT).removeClass('highlight');
-                    })
-                },
+                    });
+                }
             }).addTo(map);
 
             // create new markerClusterGroup
             var markers = L.markerClusterGroup();
             // loop through all our signals features
-            schools.features.forEach(function (feature) {
+            schools.features.forEach(function(feature) {
 
                 var icon = L.icon({
                     iconUrl: 'images/schools.png'
                 });
                 // create a new Leaflet marker for each
                 var coords = feature.geometry.coordinates,
-                    marker = L.marker([coords[1], coords[0]],
-                        { opacity: 0.7, icon: icon });
+                    marker = L.marker([coords[1], coords[0]], {
+                        opacity: 0.7,
+                        icon: icon
+                    });
 
                 // bind a tooltip to the marker
-                marker.bindTooltip("<b>School Name: <b/>" + feature.properties.NAMELONG + "<br>" +
+                marker.bindTooltip(
+                    "<b>School Name: <b/>" + feature.properties.NAMELONG + "<br>" +
                     "District: " + feature.properties.DISTRICT + "<br>" +
                     "Grade Level: " + feature.properties.GLEVEL + "<br>" +
                     "Magnet School: " + feature.properties.IS_MAGNET + "<br>" +
@@ -226,16 +228,24 @@
             map.addLayer(markers);
 
             // select all the list items and on mouseover
-            $('.legend-item').on('mouseover', function () {
+            $('.legend-item').on('mouseover', function() {
                 // extract the specific number from the specific item being mouse over
                 var num = this.id.replace('district-', '');
                 // send this number as an argument to the highlightDistrict function
                 highlightDistrict(num);
             });
 
+            $('.legend-item').on('click', function() {
+                // extract the specific number from the specific item
+                // being clicked
+                var num = this.id.replace('district-', '');
+                // send this number as an argument to the panToDistrict function
+                panToDistrict(num);
+            });
+
             function highlightDistrict(districtNum) {
                 // loop through the districts polygons
-                districtsLayerGroup.eachLayer(function (layer) {
+                districtsLayerGroup.eachLayer(function(layer) {
 
                     // if the district id matches the one we are mousing over
                     if (layer.feature.properties.DISTRICT === districtNum) {
@@ -248,9 +258,16 @@
                         });
                     }
                 });
-            }
-        });
+            };
 
+            function panToDistrict(districtNum) {
+                districtsLayerGroup.eachLayer(function(layer) {
+                    if (layer.feature.properties.DISTRICT === districtNum) {
+                        map.fitBounds(layer.getBounds());
+                    }
+                })
+            };
+        });
     </script>
 </body>
 
