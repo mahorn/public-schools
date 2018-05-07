@@ -44,7 +44,7 @@
             bottom: 20px;
             left: 50px;
             padding: 6px 12px;
-            background: rgba(260, 260, 260, .25);
+            background: rgba(260, 260, 260, .25); 
         }
         #ui ul {
             list-style-type: none;
@@ -117,16 +117,16 @@
             var districts = districtsData[0],
                 colors = colorsData[0],
                 schools = schoolsData[0];
-            
+
             // store a reference to the HTML list
             var legendList = $('#legend-list');
             // loop through district features and create a new list item for each feature in the legend
-            for (var i = 1; i <= districts.features.length; i++) {
+            for (var i = 1; i <= districts.features.length; i++) {                
                 // each feature, append a new list item, giving each a common class attribute and unique id attribute
                 legendList.append('<li class="legend-item" id="district-' + i + '"><a style="color:' + colors.Antique[11][i - 1] + '" href="#">District ' + i + ' (<span></span>)</a></li>');
             }
             // create a layerGroup with the geojson data
-            var districtsLayerGroup = L.geoJson(districts, {
+            var districtsLayerGroup = L.geoJson(districts, { 
                 style: function (feature) {
                     // colors object to style each polygon
                     return {
@@ -136,8 +136,10 @@
                     }
                 },
                 onEachFeature(feature, layer) {
-                    // select each legend list item span and append the total count of signals
-                    $('district-' + feature.properties.OBJECTID + ' span').append(feature.properties.COUNT);
+                    console.log(feature);
+                    // select each legend list item span and append the total count of schools
+                    var test = $('district-' + feature.properties.OBJECTID + ' span').append(feature.properties.COUNT);
+                    console.log(test);
                     layer.on('mouseover', function () {
                         this.setStyle({
                             fillOpacity: .7
