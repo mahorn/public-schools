@@ -109,7 +109,8 @@
                 colors = colorsData[0],
                 schools = schoolsData[0];
 
-            console.log(schools);
+            //console.log(schools);
+            //console.log(districts);
 
             var legendList = $('#legend-list');
 
@@ -120,14 +121,14 @@
             var districtsLayerGroup = L.geoJson(districts, {
                 style: function(feature) {
                     return {
-                        color: colors.Antique[11][feature.properties.OBJECTID - 1],
+                        color: colors.Antique[11][feature.properties.DISTRICT - 1],
                         fillOpacity: 0.4,
                         weight: 0.7
                     }
                 },
                 onEachFeature(feature, layer) {
-                    console.log(layer.feature.properties.DISTRICT);
-                    $('district-' + feature.properties.OBJECTID + ' span').append(feature.properties.DISTRICT);
+                    // console.log(layer.feature.properties.DISTRICT);
+                    $('#district-' + feature.properties.DISTRICT + ' span').append(feature.properties.COUNT);
 
                     layer.on('mouseover', function() {
 
@@ -135,18 +136,18 @@
                             fillOpacity: .6
                         });
 
-                        $('#district-' + feature.properties.OBJECTID).addClass('highlight');
-                    })
+                        $('#district-' + feature.properties.DISTRICT).addClass('highlight');
+                    });
 
                     layer.on('mouseout', function() {
 
                         this.setStyle({
-                            color: colors.Antique['11'][feature.properties.OBJECTID - 1],
+                            color: colors.Antique['11'][feature.properties.DISTRICT - 1],
                             fillOpacity: .4
                         });
 
-                        $('#district-' + feature.properties.OBJECTID).removeClass('highlight');
-                    })
+                        $('#district-' + feature.properties.DISTRICT).removeClass('highlight');
+                    });
                 }
             }).addTo(map);
 
@@ -184,7 +185,7 @@
 
                 districtsLayerGroup.eachLayer(function(layer) {
 
-                    if (layer.feature.properties.OBJECTID === districtNum) {
+                    if (layer.feature.properties.DISTRICT === districtNum) {
 
                         layer.setStyle({
                             fillOpacity: .6
