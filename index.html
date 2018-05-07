@@ -128,7 +128,7 @@
                 },
                 onEachFeature(feature, layer) {
                     // console.log(layer.feature.properties.DISTRICT);
-                    $('#district-' + feature.properties.DISTRICT + ' span').append(feature.properties.DISTRICT); //change append to COUNT
+                    $('#district-' + feature.properties.DISTRICT + ' span').append(feature.properties.COUNT);
 
                     layer.on('mouseover', function() {
 
