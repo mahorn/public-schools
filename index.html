@@ -100,7 +100,7 @@
 
         // load json files using jquery
         $.when(
-            $.getJSON('data/school-districts-filtered.json'),
+            $.getJSON('data/school-districts-counts.json'),
             $.getJSON('data/antiquecolors.json'),
             $.getJSON('data/schools-filtered.json')
         ).done(function(districtsData, colorsData, schoolsData) {
