@@ -133,15 +133,8 @@
             var districts = districtsData[0],
                 colors = colorsData[0],
                 schools = schoolsData[0];
-<<<<<<< HEAD
             
             // store a reference to the HTML list
-=======
-
-            //console.log(schools);
-            //console.log(districts);
-
->>>>>>> 78c727ac375e4292eba9787153b45d654e14bb03
             var legendList = $('#legend-list');
             // loop through district features and create a new list item for each feature in the legend
             for (var i = 1; i <= districts.features.length; i++) {
@@ -153,13 +146,12 @@
                 style: function (feature) {
                     // colors object to style each polygon
                     return {
-                        color: colors.Antique[11][feature.properties.DISTRICT - 1],
+                        color: colors.Antique[11][feature.properties.OBJECTID - 1],
                         fillOpacity: 0.4,
                         weight: 0.7
                     }
                 },
                 onEachFeature(feature, layer) {
-<<<<<<< HEAD
                     // select each legend list item span and append the total count of signals
                     $('district-' + feature.properties.OBJECTID + ' span').append(feature.properties.COUNT);
                     layer.on('mouseover', function () {
@@ -170,37 +162,14 @@
                         $('#district-' + feature.properties.OBJECTID).addClass('highlight');
                     })
                     layer.on('mouseout', function () {
-=======
-                    // console.log(layer.feature.properties.DISTRICT);
-                    $('#district-' + feature.properties.DISTRICT + ' span').append(feature.properties.COUNT);
-
-                    layer.on('mouseover', function() {
-
                         this.setStyle({
-                            fillOpacity: .6
-                        });
-
-                        $('#district-' + feature.properties.DISTRICT).addClass('highlight');
-                    });
-
-                    layer.on('mouseout', function() {
-
->>>>>>> 78c727ac375e4292eba9787153b45d654e14bb03
-                        this.setStyle({
-                            color: colors.Antique['11'][feature.properties.DISTRICT - 1],
+                            color: colors.Antique['11'][feature.properties.OBJECTID - 1],
                             fillOpacity: .4
                         });
-<<<<<<< HEAD
                         // remove class
                         $('#district-' + feature.properties.OBJECTID).removeClass('highlight');
                     })
                 },
-=======
-
-                        $('#district-' + feature.properties.DISTRICT).removeClass('highlight');
-                    });
-                }
->>>>>>> 78c727ac375e4292eba9787153b45d654e14bb03
             }).addTo(map);
 
             // create new markerClusterGroup
@@ -230,16 +199,8 @@
             });
 
             function highlightDistrict(districtNum) {
-<<<<<<< HEAD
                 districtsLayerGroup.eachLayer(function (layer) {
                     if (layer.feature.properties.OBJECTID === districtNum) {
-=======
-
-                districtsLayerGroup.eachLayer(function(layer) {
-
-                    if (layer.feature.properties.DISTRICT === districtNum) {
-
->>>>>>> 78c727ac375e4292eba9787153b45d654e14bb03
                         layer.setStyle({
                             fillOpacity: .6
                         }).bringToFront();
