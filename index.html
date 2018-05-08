@@ -51,7 +51,7 @@
 
         #ui {
             position: absolute;
-            z-index: 1000;
+            z-index: 650;
             bottom: 20px;
             left: 30px;
             padding: 8px 25px 8px 15px;
@@ -95,7 +95,7 @@
         }
 
         .footer {
-            z-index: 1000;
+            z-index: 650;
             position: absolute;
             font-size: 0.6em;
             font-family: 'Antic';
@@ -162,7 +162,7 @@
 
         //Basemap Labels
         map.createPane('labels');
-        map.getPane('labels').style.zIndex = 1000;
+        map.getPane('labels').style.zIndex = 500;
         map.getPane('labels').style.pointerEvents = 'none';
         L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/light_only_labels/{z}/{x}/{y}.png', {
             attribution: '©OpenStreetMap, ©CartoDB',
@@ -212,7 +212,8 @@
                         // bind tooltip to layer
                         layer.bindTooltip(tooltip, {
                             sticky: true,
-                            className: 'tooltip'
+                            className: 'tooltip',
+                            direction: 'top'
                         }).addTo(map).bringToFront();
                         // select the corresponding list item and add the highlight class
                         $('#district-' + feature.properties.DISTRICT).addClass('highlight');
@@ -245,15 +246,18 @@
                         icon: icon
                     });
 
-                // bind a tooltip to the marker
-                marker.bindTooltip(
-                    "<b>School Name: <b/>" + feature.properties.NAMELONG + "<br>" +
+                var markerTooltip = "<b>School Name: <b/>" + feature.properties.NAMELONG + "<br>" +
                     "District: " + feature.properties.DISTRICT + "<br>" +
                     "Grade Level: " + feature.properties.GLEVEL + "<br>" +
                     "Magnet School: " + feature.properties.IS_MAGNET + "<br>" +
                     "Title 1 School: " + feature.properties.IS_TITLE1 + "<br>" +
-                    "District Admin: " + feature.properties.NAME + "<br>"
-                );
+                    "District Admin: " + feature.properties.NAME + "<br>";
+
+                // bind a tooltip to the marker
+                marker.bindTooltip(markerTooltip, {
+                    className: 'tooltip',
+                    direction: 'top'
+                });
                 // add the marker to the markerClusterGroup
                 markers.addLayer(marker).bringToFront();
             });
