@@ -33,7 +33,7 @@
         h1 {
             position: absolute;
             z-index: 650;
-            left: 70px;
+            left: 30px;
             top: 10px;
             padding: 8px 15px;
             margin: 0;
@@ -63,12 +63,12 @@
         #ui ul {
             list-style-type: none;
             padding: 0;
-            font-size: 18px;
+            font-size: 16px;
             margin: 12px 4px 0;
         }
 
         #ui li {
-            height: 22px;
+            height: 24px;
         }
 
         #ui a {
@@ -81,15 +81,14 @@
 
         .highlight {
             font-weight: bold;
-            text-decoration: underline overline;
+            font-size: 22px;
         }
 
         .tooltip {
             z-index: 650;
-            font-size: 1.6em;
             font-family: 'Antic';
             font-weight: bold;
-            padding: 6px 12px;
+            padding: 5px 5px 5px 5px;
             border: 0;
             fill-opacity: 0;
             background: rgba(235, 235, 235, 0.82);
@@ -136,6 +135,7 @@
     <script>
         // map options
         var options = {
+            zoomControl: false,
             center: [37.265, -94.04],
             zoom: 10,
             minZoom: 10,
@@ -147,6 +147,11 @@
         };
         // instantiate Leaflet map
         var map = L.map('map', options);
+
+        // add zoom control to upper right
+        L.control.zoom({
+            position:'topright'
+        }).addTo(map);
 
         // add CARTO tiles with no labels
         L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png', {
@@ -202,7 +207,8 @@
                             fillOpacity: .8
                         });
                         // shorthand variable
-                        var tooltip = feature.properties.NAME;
+                        var tooltip = '<span style="font-size:0.8em">District Admin</span> <br>' +
+                            '<span style="font-size:1.3em">' + feature.properties.NAME + '</span>';
                         // bind tooltip to layer
                         layer.bindTooltip(tooltip, {
                             sticky: true,
