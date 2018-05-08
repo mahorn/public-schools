@@ -11,27 +11,19 @@ School Board Districts
 
 Wake County Public Schools
 * Obtained from [Raleigh Open Data](https://data-ral.opendata.arcgis.com/datasets/Wake::wake-county-public-schools?selectedAttribute=STATUS)
-* Unnecessary attributes were removed. Data was bind with School Board Districts.
-* Contains locations of public schools in Wake County.
+* Unnecessary attributes were removed. Data was bind with School Board Districts using nmp mapshaper.
+* Contains locations of public schools in Wake County, North Carolina.
 
-United States Counties
-* Obtained from [US Census Cartographic Boundery Files](https://www.census.gov/geo/maps-data/data/cbf/cbf_ua.html)
-* Shapefile data converted into WGS84, simplyfied and encoded within a GeoJSON file using Mapshaper.
-
-# Data Process
-
-* Cartocolors.json file read and upload using require().
-* Cartocolors.json file read and write using fs.readFile to extract "Geyser palette".
+# Data Process/Scripts
 * ogr2ogr used to convert public schools shapefile to GeoJSON and features extracted using mapshaper -filter-fields.
 * ogr2ogr used to convert school disctrics shapefile to GeoJSON and features extracted using mapshaper -filter-fields.
+* fs.readFile used to extract "Antique palette" from Cartocolors.json file.
+* mapshaper used to bindData from both GeoJson files.
 
 # Project npm Packages
-* chalk
-* less
+* "chalk": "^2.4.1"
+* "mapshaper": "^0.4.70"
 
-# Mock up
-
-![Map of public schools in Wake County, North Carolina](/RoughDraft-ArcPro.PNG "Mock up")
 
 
 
