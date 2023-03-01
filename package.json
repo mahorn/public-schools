@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
-    "csv2geojson": "^5.0.2",
+    "csv2geojson": "^5.1.2",
     "less": "^3.0.2",
-    "mapshaper": "^0.4.70"
+    "mapshaper": "^0.6.24"
   }
 }
